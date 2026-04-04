@@ -1,0 +1,5 @@
+{
+  "name": "Minimal Portfolio Base",
+  "description": "A clean, production-ready React + TypeScript + Tailwind CSS portfolio base project.",
+  "requestFramePermissions": []
+}

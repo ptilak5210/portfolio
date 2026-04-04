@@ -1,0 +1,43 @@
+import { Project } from '../types';
+
+export const projects: Project[] = [
+  {
+    id: '1',
+    title: 'AI-Powered Resume Analyzer',
+    description: 'Full-stack platform generating ATS compatibility scores using weighted NLP algorithms.',
+    problem: 'Manual screening of resumes was time-consuming, inconsistent, and lacked data-driven insights for recruiters.',
+    solution: 'Built a platform using Flask and React that generates ATS scores (0-100) based on skills (50%), experience (30%), and keywords (20%). Integrated OpenAI API for skill gap analysis.',
+    impact: 'Automated the initial screening process with a secure REST API (JWT) and JSONB-powered PostgreSQL schema for semi-structured data.',
+    techStack: ['Flask', 'React', 'PostgreSQL', 'OpenAI API'],
+    image: '/AI-Powered-Resume-Analyzer.png',
+    liveLink: 'https://resume-blond-one-35.vercel.app',
+    githubLink: 'https://github.com/ptilak5210',
+    category: 'AI',
+  },
+  {
+    id: '2',
+    title: 'HRFlow - Management System',
+    description: 'Production-grade HR platform with role-based portals and real-time analytics.',
+    problem: 'Fragmented HR processes led to data inconsistencies and inefficient employee management workflows.',
+    solution: 'Architected a system with 3 role-based portals (HR, Manager, Employee) using FastAPI and React 19. Designed a normalized PostgreSQL schema with 9 tables.',
+    impact: 'Implemented a full payroll engine and attendance tracking with Recharts analytics, deployed on Supabase with cascading foreign keys.',
+    techStack: ['FastAPI', 'React 19', 'PostgreSQL', 'Supabase'],
+    image: '/HRFlow-Management-System.png',
+    liveLink: 'https://example.com',
+    githubLink: 'https://github.com/ptilak5210',
+    category: 'Python',
+  },
+  {
+    id: '3',
+    title: 'SalesAI - WhatsApp CRM',
+    description: 'Real-time WhatsApp CRM for managing customer conversations and lead automation.',
+    problem: 'Sales teams struggled to manage high volumes of customer interactions across WhatsApp efficiently.',
+    solution: 'Developed a Node.js/Express CRM with QR-code auth. Built an AI agent using Google Gemini API + n8n for context-aware auto-replies.',
+    impact: 'Engineered a multi-tenant Supabase schema with RLS and used BullMQ + Redis for reliable asynchronous message delivery.',
+    techStack: ['Node.js', 'Express', 'Gemini API', 'Redis'],
+    image: '/salesAI.png',
+    liveLink: 'https://example.com',
+    githubLink: 'https://github.com/ptilak5210',
+    category: 'Full Stack',
+  },
+];
