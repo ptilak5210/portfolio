@@ -136,6 +136,8 @@ export const Hero = () => {
                                 <img
                                     src="/Gemini_Generated_Image_8sfmh98sfmh98sfm.png"
                                     alt="Tilak Patel"
+                                    fetchpriority="high"
+                                    loading="eager"
                                     className="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105"
                                     onError={(e) => { e.currentTarget.src = 'https://ui-avatars.com/api/?name=Tilak+Patel&background=00d4ff&color=fff&size=512'; }}
                                 />
